@@ -32,8 +32,10 @@
                 <form action="../operations/op_login.php" method="POST">
                     <div class="card">
                         <div class="card-body">
-                            <h1 class="card-title">Login</h1>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Fill out the form carfully to Login</h6>
+                            <div class="text-center mb-3">
+                                <h1>TO DO APPLICATION</h1>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Manage your task efficiently.</h6>
+                            </div>
                             <div class="row mb-3">
                                 <div class="col">
                                     <label for="email">Email</label>

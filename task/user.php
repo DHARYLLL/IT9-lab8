@@ -3,7 +3,7 @@
 session_start();
 include "../operations/database.php";
 
-if (!isset($_SESSION['user_id'])) {
+if (!isset($_SESSION['user_id']) || empty($_SESSION['user_id'])) {
     header("location: ../Authentication/login.php");
     exit();
 }
@@ -109,7 +109,7 @@ $conn->close();
                                             </div>
                                         </form>
 
-                                        <form action="operations/delete_task.php" method="post">
+                                        <form action="../operations/op_delete_task.php" method="POST">
                                             <input value="<?= $task['id'] ?>" hidden name="id">
                                             <button type="submit" class="btn btn-danger"><i class="bi bi-trash3"> Delete</i>
                                             </button>
