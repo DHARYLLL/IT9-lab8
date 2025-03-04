@@ -66,6 +66,7 @@ $conn->close();
                                 <br>
                                 <span class="fs-4"> <strong>Email: </strong> <?php echo ($user_name['email']); ?> </span>
                             </div>
+
                             <form action="../Authentication/logout.php" method="POST">
                                 <div>
                                     <a href="../Authentication/login.php" class="btn btn-primary">Log out</a>

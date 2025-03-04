@@ -57,7 +57,9 @@
                             </div>
 
                             <button type="submit" class="btn btn-primary w-100 mt-3">Sign up</button>
-
+                            <div class="row text-center mt-2">
+                                <p>Already have an account? <a href="login.php"> Sign in</a></p>
+                            </div>
                         </div>
                     </div>
                 </form>
